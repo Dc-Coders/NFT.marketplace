@@ -79,7 +79,14 @@ nav img {
   transition-duration: 1s;
   transform: translateX(300px);
 }
-
+.menu {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  margin-top: 0vh;
+  display: flex;
+  justify-content: end;
+}
 .uldiv ul {
   display: flex;
   justify-content: center;
@@ -464,7 +471,7 @@ footer {
     font-size: 10px;
     display: flex;
   }
-  .divul svg{
+  .divul svg {
     width: 10px;
   }
   nav img {
