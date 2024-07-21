@@ -1,0 +1,452 @@
+*{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 90vh;
+}
+nav{
+    width: 100%;
+    height: 11vh;
+    background-color: rgb(40, 40, 40);
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    width: 89%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-icon{
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-image: url(./icons/store\ icon\ navbar.png);
+    width: 36px;
+    height: 36px;
+}
+.navbar-h1{
+    font-size: 1.56rem;
+    color: aliceblue;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+ul li a{
+    font-size: 1.12rem;
+    color: aliceblue;
+}
+.man-icon-navbar{
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-image: url(./icons/icon\ of\ man\ navbar.png);
+    width: 27px;
+    height: 27px;
+}
+.navbar-btn-maket{
+    display: flex;
+    align-items: center;
+    background-color: rgb(162, 89, 255);
+    border-radius: 8px;
+    padding: 6px 12px;
+    gap: 6px;
+}
+.navbar-btn-maket h2{
+    font-size: 1.13rem;
+    color: aliceblue;
+}
+.bg-image-navbar{
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-image: url(./img/header\ 2.png);
+    background-size: 100% 79vh;
+    width: 100%;
+    height: 79vh;
+}
+.animakid-icon{
+    background-size: cover;
+    background-image: url(./icons/animakid\ icon.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 150px;
+    border: 2px solid rgb(40, 40, 40);
+    border-radius: 20px;
+    height: 150px;
+    position: absolute;
+    right: 81.4%;
+    top: 64%;
+}
+.main{
+    background-color: rgb(40, 40, 40);
+}
+.animakid-bla{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    width: 83.5%;
+    margin: 0 auto;
+}
+.animakid-bla h1{
+    font-size: 4rem;
+    color: aliceblue;
+}
+.btn1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: rgb(162, 89, 255);
+    border-radius: 14px;
+    padding: 8px;
+}
+.btn1-icon{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./icons/copy\ icon.png);
+    object-fit: cover;
+    width: 28px;
+    height: 28px;
+}
+.btn2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: rgb(56, 56, 56);
+    border-radius: 14px;
+    padding: 8px;
+}
+.btn2-icon{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./icons/plus\ icon.png);
+    object-fit: cover;
+    width: 28px;
+    height: 28px;
+}
+.btn1 h2{
+    font-size: 1.2rem;
+    color: aliceblue;
+}
+.btn2 h2{
+    font-size: 1.2rem;
+    color: aliceblue;
+}
+.animakid-btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.statistica{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.sta-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.sta-row h3{
+    color: aliceblue;
+    font-size: 1.75rem;
+}
+.sta-row2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.sta-row2 h3{
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+.bio{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.bio h2{
+    color: rgb(155, 155, 155);
+    font-size: 1.65rem;
+}
+.bio small{
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+.links{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.links h2{
+    color: rgb(155, 155, 155);
+    font-size: 1.65rem; 
+}
+.links-img-5{
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 205px;
+    height: 4.1vh;
+    background-image: url(./icons/social\ media\ icons\ 5.png);
+}
+.filter-btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.filter-btns button{
+    border: none;
+    background-color: rgb(56, 56, 56);
+    font-size: 1.23rem;
+    color: aliceblue;
+}
+.filter-btns button:hover{
+    cursor: pointer;
+}
+.main2{
+    width: 100%;
+    background-color:rgb(56, 56, 56) ;
+}
+.box{
+    width: 88%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.div1{
+    width: 28%;
+    height: 66vh;
+    border-radius: 20px;
+    background-color: rgb(40, 40, 40);
+}
+.div1-img{
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-image: url(./img/1.png);
+    width: 100%;
+    height: 65%;
+}
+.div-text-1{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+.div-text-1 h4{
+    color:aliceblue;
+    font-size: 1.75rem;
+}
+.Animakid{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.animakid-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./icons/animakid\ icon.png);
+    object-fit: cover;
+    width: 23px;
+    height: 23px;
+    border-radius: 100%;
+}
+.Animakid small{
+    font-size: 17px;
+    font-weight: 200;
+    color: aliceblue;
+}
+.div-text-2{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.div-text-3{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.div-text-2 h4{
+    color: rgb(178, 178, 178);
+    font-size: 0.95rem;
+}
+.div-text-3 h4{
+    color: aliceblue;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div2{
+    width: 28%;
+    height: 66vh;
+    border-radius: 20px;
+    background-color: rgb(40, 40, 40);
+}
+.div2-img{
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-image: url(./img/2.png);
+    width: 100%;
+    height: 65%;
+}
+.div3{
+    width: 28%;
+    height: 66vh;
+    border-radius: 20px;
+    background-color: rgb(40, 40, 40);
+}
+.div3-img{
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-image: url(./img/3.png);
+    width: 100%;
+    height: 65%;
+}
+.div4{
+    width: 28%;
+    height: 66vh;
+    border-radius: 20px;
+    background-color: rgb(40, 40, 40);
+}
+.div4-img{
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-image: url(./img/4.png);
+    width: 100%;
+    height: 65%;
+}
+.div5{
+    width: 28%;
+    height: 66vh;
+    border-radius: 20px;
+    background-color: rgb(40, 40, 40);
+}
+.div5-img{
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-image: url(./img/5.png);
+    width: 100%;
+    height: 65%;
+}
+.div6{
+    width: 28%;
+    height: 66vh;
+    border-radius: 20px;
+    background-color: rgb(40, 40, 40);
+}
+.div6-img{
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-image: url(./img/6.png);
+    width: 100%;
+    height: 65%;
+}
+.div7{
+    width: 28%;
+    height: 66vh;
+    border-radius: 20px;
+    background-color: rgb(40, 40, 40);
+}
+.div7-img{
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-image: url(./img/7.png);
+    width: 100%;
+    height: 65%;
+}
+.div8{
+    width: 28%;
+    height: 66vh;
+    border-radius: 20px;
+    background-color: rgb(40, 40, 40);
+}
+.div8-img{
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-image: url(./img/8.png);
+    width: 100%;
+    height: 65%;
+}
+.div9{
+    width: 28%;
+    height: 66vh;
+    border-radius: 20px;
+    background-color: rgb(40, 40, 40);
+}
+.div9-img{
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-image: url(./img/9.png);
+    width: 100%;
+    height: 65%;
+}
+.footer-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-image: url(./icons/social\ media\ 4.png);
+    width: 200px;
+    height: 5vh;
+}
+.footer{
+    width: 100%;
+    height: 16vh;
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    align-items: center;
+}
+.footer-box{
+    width: 88%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#footerInp{
+    width: 300px;
+    height: 6vh;
+    border: none;
+    border-radius: 12px;
+    padding: 4px 10px;
+}
+#lastBtn{
+    width: 130px;
+    height: 7.6vh;
+    border: none;
+    border-radius: 12px;
+    padding: 6px 22px;
+    color: aliceblue;
+    background-color: rgb(162, 89, 255);
+    font-size: 1.2rem;
+    position: relative;
+    right: 8%;
+}
+a{
+    color: aliceblue;
+}
