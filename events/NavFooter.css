@@ -78,6 +78,7 @@ nav img {
   display: none;
   transition-duration: 1s;
   transform: translateX(300px);
+  border-bottom-left-radius: 50px ;
 }
 .menu {
   width: 100%;
@@ -86,6 +87,7 @@ nav img {
   margin-top: 0vh;
   display: flex;
   justify-content: end;
+  bo
 }
 .uldiv ul {
   display: flex;
@@ -176,6 +178,7 @@ footer {
   border-bottom-left-radius: 50px;
   border-top-left-radius: 50px;
   border: none;
+  outline: none;
   padding: 23px;
 }
 
