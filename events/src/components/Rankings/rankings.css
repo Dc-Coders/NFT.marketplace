@@ -112,6 +112,7 @@ main nav .container ul .latest,
   font-size: 2.5rem;
   font-weight: 500;
   color: #858584;
+  cursor: pointer;
 }
 
 main nav .container ul .latestActive,
@@ -249,7 +250,7 @@ main .artists .container .aBody4 {
 
 footer {
   width: 100%;
-  height: 50vh;
+  height: auto;
   background-color: #3b3b3b;
 }
 
@@ -276,6 +277,8 @@ footer .bedrock .hrDiv {
 footer .bedrock h4 {
   color: #cccccc;
   font-weight: 400;
+  position: relative;
+  bottom: 0.5rem;
 }
 
 footer .container .tables {
@@ -362,4 +365,182 @@ footer .container .tables .table_3 h3 {
   font-weight: 600;
   position: relative;
   right: 2.5rem;
+}
+
+#barsMenu {
+  display: none;
+}
+
+.navMedia {
+  transition: 1s all ease-in-out;
+  width: 250px;
+  height: 250px;
+  transform: translateY(-500px);
+  display: none;
+  z-index: 1;
+}
+
+.navMedia ul {
+  text-align: center;
+  line-height: 2rem;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.navMedia ul li a {
+  color: #ffffff;
+}
+
+.navMedia ul li a button {
+  text-align: center;
+  padding: 15px 30px;
+  background-color: #a259ff;
+  border-radius: 15px;
+  border: none;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.navMediaActive {
+  width: 250px;
+  height: 250px;
+  transform: translateY(0px);
+  display: none;
+  z-index: 1;
+}
+
+.navMediaActive ul {
+  text-align: center;
+  line-height: 2rem;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.navMediaActive ul li a {
+  color: #ffffff;
+}
+
+.navMediaActive ul li a button {
+  text-align: center;
+  padding: 15px 30px;
+  background-color: #a259ff;
+  border-radius: 15px;
+  border: none;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1863px) {
+  main nav .container ul li,
+  #latest {
+    font-size: 2rem;
+  }
+
+  main nav .container ul {
+    gap: 10rem;
+  }
+}
+
+@media (max-width: 1580px) {
+  .topSold {
+    display: none;
+  }
+  #Sold2 {
+    display: none;
+  }
+  #artistSold {
+    display: none;
+  }
+}
+
+@media (max-width: 1395px) {
+  #inp {
+    padding: 20px 30px;
+  }
+
+  footer .container .tables .table_2 {
+    display: none;
+  }
+}
+
+@media (max-width: 1380px) {
+  main nav .container ul li,
+  #latest {
+    font-size: 1.5rem;
+  }
+
+  main nav .container ul {
+    gap: 10rem;
+  }
+}
+
+@media (max-width: 1335px) {
+  #artistSame ul:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    position: absolute;
+    right: 8rem;
+  }
+}
+
+@media (max-width: 1250px) {
+  header nav .container ul {
+    display: none;
+  }
+
+  #barsMenu {
+    display: block;
+    width: 35px;
+  }
+}
+
+@media (max-width: 1090px) {
+  #Change2 {
+    display: none;
+  }
+
+  .topChanges {
+    display: none;
+  }
+
+  #artistChange {
+    display: none;
+  }
+
+  .tables .table_1 {
+    display: none;
+  }
+
+  .tables .table_3 {
+    text-align: center;
+    position: relative;
+    left: auto;
+  }
+}
+
+@media (max-width: 850px) {
+  #artistName {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 780px) {
+  #artistSame {
+    padding: 10px;
+  }
+
+  #artistSame ul:nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  #artistImg {
+    width: 20%;
+  }
+
+  main {
+    height: 270vh;
+  }
 }

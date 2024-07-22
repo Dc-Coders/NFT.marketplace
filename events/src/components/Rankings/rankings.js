@@ -7,12 +7,14 @@ let latest = document.getElementById("latest");
 let topSold = document.getElementById("topSold");
 let topVolume = document.getElementById("topVolume");
 let topChanges = document.getElementById("topChanges");
+let barMenu = document.getElementById("barsMenu");
+let navMedia = document.getElementById("navMedia");
 
 let artistsData = [
   {
     id: 1,
     img: "./rankingsImg/img-1.png",
-    name: "Jaydon Ekstrom Bothman",
+    name: "Jaydon Ekstrom",
     change: 1.41,
     sold: 602,
     volume: 10.4,
@@ -175,7 +177,7 @@ artistsData.forEach((item) => {
   aBody.innerHTML += `<div id="artistSame">
      <ul>
      <h4 id="artistId">${item.id}</h4>
-     <img src="${item.img}">
+     <img id="artistImg" src="${item.img}">
      <h2 id="artistName">${item.name}</h2></ul>
      <ul>
      <h3 id="artistChange">+${item.change}%</h3>
@@ -258,4 +260,8 @@ topChanges.addEventListener("click", () => {
          <h3 id="artistVolume">${item.volume}</h3></ul>
          </div>`;
   });
+});
+
+barsMenu.addEventListener("click", () => {
+  navMedia.classList.toggle("navMediaActive");
 });
