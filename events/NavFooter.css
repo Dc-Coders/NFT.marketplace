@@ -99,6 +99,8 @@ nav img {
   margin-top: 10px;
   font-size: large;
   color: #fff;
+  font-size: large;
+
 }
 
 .uldiv button {
@@ -109,6 +111,7 @@ nav img {
   justify-content: center;
   border-radius: 20px;
   color: #fff;
+  margin-top: 20px;
   background-color: #a259ff;
 }
 .uldiv li {
