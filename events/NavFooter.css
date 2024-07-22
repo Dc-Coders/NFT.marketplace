@@ -78,8 +78,17 @@ nav img {
   display: none;
   transition-duration: 1s;
   transform: translateX(300px);
+  border-bottom-left-radius: 50px ;
 }
-
+.menu {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  margin-top: 0vh;
+  display: flex;
+  justify-content: end;
+  bo
+}
 .uldiv ul {
   display: flex;
   justify-content: center;
@@ -111,7 +120,7 @@ nav img {
 }
 
 footer {
-  margin-top: 10vh;
+  
   padding: 30px;
   background-color: #2b2b2b;
   display: flex;
@@ -169,6 +178,7 @@ footer {
   border-bottom-left-radius: 50px;
   border-top-left-radius: 50px;
   border: none;
+  outline: none;
   padding: 23px;
 }
 
@@ -464,7 +474,7 @@ footer {
     font-size: 10px;
     display: flex;
   }
-  .divul svg{
+  .divul svg {
     width: 10px;
   }
   nav img {
