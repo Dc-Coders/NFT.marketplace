@@ -105,19 +105,19 @@ main nav .container ul {
   gap: 15rem;
 }
 
-main nav .container ul .today,
-.thisWeek,
-.thisMonth,
-.allTime {
+main nav .container ul .latest,
+.topSold,
+.topVolume,
+.topChanges {
   font-size: 2.5rem;
   font-weight: 500;
   color: #858584;
 }
 
-main nav .container ul .todayActive,
-.thisWeekActive,
-.thisMonthActive,
-.allTimeActive {
+main nav .container ul .latestActive,
+.topSoldActive,
+.topVolumeActive,
+.topChangesActive {
   color: #ffffff;
   border-bottom: 5px solid #ffffff;
 }
@@ -161,6 +161,25 @@ main .artists .container .aHead ul:nth-child(2) {
 }
 
 main .artists .container .aBody {
+  width: 80%;
+  position: absolute;
+  top: 80vh;
+}
+
+main .artists .container .aBody1 {
+  width: 80%;
+  position: absolute;
+  top: 80vh;
+}
+
+main .artists .container .aBody3 {
+  width: 80%;
+  position: absolute;
+  top: 80vh;
+}
+
+main .artists .container .aBody2 {
+  display: none;
   width: 80%;
   position: absolute;
   top: 80vh;
@@ -307,6 +326,11 @@ footer .container .tables .table_3 h1 {
   font-family: "Space Mono", monospace;
   color: #ffffff;
   margin-bottom: 2rem;
+}
+
+footer .container .tables .table_3 {
+  position: relative;
+  bottom: 1rem;
 }
 
 footer .container .tables .table_3 h3 {
