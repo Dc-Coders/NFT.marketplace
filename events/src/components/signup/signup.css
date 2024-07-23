@@ -19,6 +19,7 @@
     background-image: url(./signup_img/bg.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 .forms{
     margin-top: 50px;
@@ -30,33 +31,33 @@
     width: 70%;
   margin-top: 3rem;
 }
-.forms form input{
+.forms  input{
      width: 30rem;
      height: 3.5rem;
-     margin-top: 2rem;
-     outline: none;
+     /* margin-top: 2rem; */
+     /* outline: none; */
      padding-left: 2rem;
      font-size: 1.8rem;
      border: none;
      border-radius: 2rem;
-    transition-duration: 0.5s;
+  
     color: black;
 display: flex;
 gap: 10px;
 align-items: center;
 }
-.forms form input:focus {
+.forms input:focus {
     width: 30rem;
     height: 3.5rem;
-    margin-top: 2rem;
+    /* margin-bottom: 2rem; */
     font-size: 1.8rem;
     border: none;
     border-radius: 2rem;
-    transition-duration: 0.5s;
+   
     color: black;
-padding: 10px;
+/* padding: 10px; */
 }
-.forms form button{
+.forms button{
      width: 30rem;
      height: 3.5rem;
      margin-top: 3rem;
@@ -139,15 +140,15 @@ footer{
         width: 90%;
        
      }
-    .forms form input{
-        width: 100%;
+    .forms input{
+        width: 90%;
         font-size: 1rem;
     }
-           .forms form input:focus {
+           .forms input:focus {
                width: 100%;
         font-size: 1rem;
            }
- .forms form button{
+ .forms button{
     width:  100%;
  }          
  .forms h1{
@@ -189,19 +190,23 @@ footer{
 
     }
 
-    .forms form input {
-        width: 100%;
+    .forms input {
+        width: 90%;
         font-size: 1rem;
+        font-size: 1rem;
+            margin: 0 auto;
+            margin-top: 2rem;
         
     }
 
-    .forms form input:focus {
-        width: 100%;
+    .forms input:focus {
+        width: 90%;
         font-size: 1rem;
+        margin: 0 auto;
       
     }
 
-    .forms form button {
+    .forms button {
         width: 100%;
      
     }
@@ -248,20 +253,20 @@ footer{
          margin: 0 auto;
     }
 
-    .forms form input {
+    .forms input {
            width: 100%;
            font-size: 1.2rem;
          
         
     }
 
-    .forms form input:focus {
-          width: 100%;
+    .forms input:focus {
+          width: 90%;
            font-size: 1.2rem;
        
     }
 
-    .forms form button {
+    .forms button {
         width: 100%;
         
     }
@@ -307,17 +312,17 @@ footer{
 
     }
 
-    .forms form input {
+    .forms input {
         width:  100%;
         font-size: 1rem;
     }
 
-    .forms form input:focus {
+    .forms input:focus {
         width: 100%;
         font-size: 1rem;
     }
 
-    .forms form button {
+    .forms button {
         width: 100%;
     }
 

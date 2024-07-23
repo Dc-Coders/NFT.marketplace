@@ -11,11 +11,9 @@ function btnfunction() {
     if (password.value == password1.value) {
     
       alert("siz ro'yxatdan otdingiz")
-      // window.location.pathname = ("/events/src/components/Home/home.html");
-      btn.style.display = "none";
-     
-
-   }
+     return window.location.pathname = "/events/src/components/Home/home.html";   
+      console.log(1);
+    }
    else {
      alert("Your password not equal to confirm password 🙃")
      }   
