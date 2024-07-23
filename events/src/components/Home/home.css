@@ -1871,6 +1871,19 @@ main {
     font-size: 20px;
     font-weight: 600;
   }
+  .newsletter {
+    height: auto;
+    flex-direction: column;
+  }
+  .newsletter img {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .newsletter .footerinp {
+    margin-bottom: 50px;
+    justify-content: end;
+  }
 }
 @media (max-width: 550px) {
   .main_header {
@@ -2308,12 +2321,15 @@ main {
 
   .works_secition h1 {
     font-size: 30px;
+    text-align: center;
+
   }
 
   .works_secition h2 {
     font-size: 20px;
     font-weight: 200;
     margin-top: 10px;
+    text-align: center;
   }
 
   .works {
@@ -2321,15 +2337,17 @@ main {
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:center;
     margin-top: 50px;
+    flex-wrap: wrap;
   }
 
-  .work:nth-child(1){
+  .work:nth-child(1) {
     display: none;
   }
   .work {
-    width: 43%;
+    width: 300px;
+    margin-top: 30px;
     background-color: #3b3b3b;
     border-radius: 20px;
     padding: 50px;
@@ -2343,12 +2361,12 @@ main {
     width: 100%;
   }
   .work h4 {
-    font-size: 8px;
+    font-size: 15px;
     text-align: center;
     margin-top: 10px;
   }
   .work h5 {
-    font-size: 5px;
+    font-size: 10px;
     font-weight: 100;
     text-align: center;
     margin-top: 5px;
@@ -2383,18 +2401,18 @@ main {
   }
 
   .newsletter p {
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 100;
     width: 90%;
     margin-top: 10px;
     text-align: center;
   }
 
-  .newsletter .footerinp{
+  .newsletter .footerinp {
     width: 100%;
+    display: flex;
     align-items: center;
     justify-content: end;
-  }
   .newsletter input {
     width: 100%;
     font-size: 10px;
