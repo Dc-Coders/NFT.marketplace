@@ -10,15 +10,17 @@ function btnfunction() {
   if (username.value !== "" && userpassword.value !== ""  && useremail.value !== "") {
     if (password.value == password1.value) {
     
-      window.location.pathname = ("/events/src/components/Home/home.html");
+      alert("siz ro'yxatdan otdingiz")
+      // window.location.pathname = ("/events/src/components/Home/home.html");
+      btn.style.display = "none";
      
 
    }
    else {
-     "Your password not equal to confirm password 🙃"
+     alert("Your password not equal to confirm password 🙃")
      }   
   } else {
     alert("Your input empty 😔");
   }
-     btn.style.display = "none";
+    
 }
