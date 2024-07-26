@@ -26,11 +26,8 @@
     height: 100vh;
 }
 
-.forms form{
-    width: 70%;
-  margin-top: 3rem;
-}
-.forms form input{
+
+.forms  input{
      width: 30rem;
      height: 3.5rem;
      margin-top: 2rem;
@@ -45,7 +42,7 @@ display: flex;
 gap: 10px;
 align-items: center;
 }
-.forms form input:focus {
+.forms  input:focus {
     width: 30rem;
     height: 3.5rem;
     margin-top: 2rem;
@@ -56,7 +53,7 @@ align-items: center;
     color: black;
 padding: 10px;
 }
-.forms form button{
+.forms  button{
      width: 30rem;
      height: 3.5rem;
      margin-top: 3rem;
@@ -135,20 +132,17 @@ footer{
     .forms {
         width: 50%;
     }
-     form{
-        width: 90%;
-       
-     }
+   
     .forms form input{
-        width: 100%;
+        width: 90%;
         font-size: 1rem;
     }
-           .forms form input:focus {
-               width: 100%;
+           .forms  input:focus {
+               width: 90%;
         font-size: 1rem;
            }
  .forms form button{
-    width:  100%;
+    width:  90%;
  }          
  .forms h1{
     font-size: 2.5rem;
@@ -178,10 +172,7 @@ footer{
         width: 100%;
 
     }
-    form{
-        width: 90%;
-        margin: 0 auto;
-    }
+ 
     .forms {
      
    
@@ -190,13 +181,13 @@ footer{
     }
 
     .forms form input {
-        width: 100%;
+        width: 90%;
         font-size: 1rem;
         
     }
 
     .forms form input:focus {
-        width: 100%;
+        width: 90%;
         font-size: 1rem;
       
     }
@@ -219,12 +210,12 @@ footer{
 }
 @media screen and (max-width: 550px) {
     main {
-        width: 100%;
+        width: 90%;
 
     }
 
     .row {
-        width: 100%;
+        width: 90%;
         height: 180vh;
         display: block;
     
@@ -234,7 +225,7 @@ footer{
     }
 
     .bg {
-        width: 100%;
+        width: 90%;
 
     }
 
@@ -243,25 +234,22 @@ footer{
         width: 100%;
 
     }
-    form{
-         width: 90%;
-         margin: 0 auto;
-    }
+  
 
-    .forms form input {
+    .forms  input {
            width: 100%;
            font-size: 1.2rem;
          
         
     }
 
-    .forms form input:focus {
+    .forms  input:focus {
           width: 100%;
            font-size: 1.2rem;
        
     }
 
-    .forms form button {
+    .forms  button {
         width: 100%;
         
     }
@@ -308,18 +296,18 @@ footer{
 
     }
 
-    .forms form input {
-        width:  100%;
+    .forms  input {
+        width:  90%;
         font-size: 1rem;
     }
 
     .forms form input:focus {
-        width: 100%;
+        width: 90%;
         font-size: 1rem;
     }
 
     .forms form button {
-        width: 100%;
+        width: 90%;
     }
 
     .forms h1 {
